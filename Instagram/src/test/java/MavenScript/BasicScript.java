@@ -4,9 +4,14 @@ import org.testng.annotations.Test;
 
 public class BasicScript {
 	@Test
-	public void Tc1()
+	public void TC1()
 	{
-		System.out.println("TestCase Execution");
+		System.out.println("TestCase Execution Started");
+	}
+	
+	public void TC2()
+	{
+		System.out.println("TestCase Execution Ended");
 	}
 
 }
